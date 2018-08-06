@@ -1,0 +1,21 @@
+.Homepage-name {
+    margin-left: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vh;
+    color: #f9f9f9;
+}
+
+.Homepage-textContainer {
+    margin-top: 50px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.Homepage-textLine {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #f9f9f9;
+}
