@@ -1,0 +1,21 @@
+.SiteDirectory-outerContainer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.SiteDirectory-clickable {
+    display: inline-block;
+    color: #020202;
+}
+
+.SiteDirectory-clickable:hover {
+    color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+}
