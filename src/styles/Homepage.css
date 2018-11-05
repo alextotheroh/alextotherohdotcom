@@ -1,4 +1,5 @@
 .Homepage-name {
+    display: inline-block;
     margin-left: 25px;
     font-family: 'Oswald', sans-serif;
     font-size: 10vh;
@@ -14,12 +15,24 @@
     height: 50vh;
 }
 
+.Homepage-nameAndPicContainer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
 .Homepage-textLine {
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #f9f9f9;
 }
 
 .Homepage-clickable {
-    color: #285ced;
+    color: #6f1add;
+}
+
+.Homepage-picContainer {
+    display: inline-block;
+    margin-left: 148px;
+    margin-bottom: -30px;
 }
