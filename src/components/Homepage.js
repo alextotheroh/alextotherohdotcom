@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import resumePDF from '../documents/AlexTotheroh_Resume_08012018.pdf';
 
 class Homepage extends Component {
-  // todo a tags should be react-router <Link> tags, need to incorporate react-router first
+  
   render() {
     return (
       <div className="Homepage-outerContainer">
