@@ -5,8 +5,9 @@ import { BrowserRouter } from 'react-router-dom';
 class AppWrapped extends Component {
   
   render() {
+    /* basename is from package.json "homepage" field */
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/HomePage">
         <App />
       </BrowserRouter>
     );
