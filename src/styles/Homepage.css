@@ -16,6 +16,7 @@
 }
 
 .Homepage-nameAndPicContainer {
+    margin-top: 20px;
     height: 150px;
     display: flex;
     align-items: center;
@@ -33,6 +34,6 @@
 
 .Homepage-picContainer {
     display: inline-block;
-    margin-left: 148px;
-    margin-bottom: -30px;
+    margin-left: 135px;
+    margin-bottom: -60px;
 }

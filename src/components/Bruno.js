@@ -10,9 +10,10 @@ class Bruno extends Component {
   render() {
     return (
       <div>
-        <img src={bruno1} width={imgWidth} alt="dog"/><br/><br/>
-        <img src={bruno2} width={imgWidth} alt="dog"/><br/><br/>
-        <img src={bruno3} width={imgWidth} alt="dog"/>
+        <br/><br/>
+        <img src={bruno1} width={imgWidth} className="Bruno-img" alt="dog"/><br/><br/>
+        <img src={bruno2} width={imgWidth} className="Bruno-img" alt="dog"/><br/><br/>
+        <img src={bruno3} width={imgWidth} className="Bruno-img" alt="dog"/><br/><br/>
       </div>
     );
   }
