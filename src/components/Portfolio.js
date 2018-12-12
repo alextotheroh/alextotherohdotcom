@@ -19,7 +19,7 @@ class Portfolio extends Component {
             3D real time multiplayer Android game created with Unity engine.
           </a><br/>
 
-          <a className="Portfolio-portfolioLink" href="https://play.google.com/store/apps/details?id=edu.indiana.bluesguitarriffs" target="_blank">
+          <a className="Portfolio-portfolioLink" href="https://play.google.com/store/apps/details?id=com.alextotheroh.sightreadingflashcards" target="_blank">
             A free, open source Android app teaching sight reading of sheet music. 
           </a><br/>
 
