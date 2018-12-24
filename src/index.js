@@ -6,6 +6,7 @@ import './styles/Homepage.css';
 import './styles/SiteDirectory.css';
 import './styles/Portfolio.css';
 import './styles/Bruno.css';
+import './styles/ViewSourceButton.css';
 
 ReactDOM.render(<AppWrapped />, document.getElementById('root'));
 registerServiceWorker();
