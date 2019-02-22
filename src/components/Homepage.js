@@ -33,7 +33,9 @@ class Homepage extends Component {
           </div>
 
           <div className="Homepage-textLine">In the rare moments when I'm not programming, I enjoy playing blues guitar, hiking, and playing 
-            with my dog, <Link className="Homepage-clickable" to="/bruno">Bruno.</Link></div>
+            with my dog, Bruno.</div>
+
+          <div className="Homepage-textLine">Here are some of my favorite <Link className="Homepage-clickable" to="/photos">photos.</Link></div>
 
           <div className="Homepage-textLine">{"You can get in touch with me at "}
             <a className="Homepage-clickable" 
