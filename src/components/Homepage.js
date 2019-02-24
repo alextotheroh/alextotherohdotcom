@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HomepageTitle from './HomepageTitle';
 import { Link } from 'react-router-dom';
-import resumePDF from '../documents/AlexTotheroh_Resume_08012018.pdf';
+import resumePDF from '../documents/AlexTotheroh_Resume_02222019.pdf';
 
 class Homepage extends Component {
   
@@ -19,7 +19,8 @@ class Homepage extends Component {
           <div className="Homepage-textLine">{"Here is my "} 
             <a className="Homepage-clickable" 
               href={resumePDF} 
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer">
               resume.
             </a>
           </div>

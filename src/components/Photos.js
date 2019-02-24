@@ -10,7 +10,8 @@ import wedding1Thumbnail from '../img/wedding1-thumbnail.jpg';
 import wedding2 from '../img/wedding2.jpg';
 import weddingAerial from '../img/wedding-aerial.jpg';
 import weddingAerialThumbnail from '../img/wedding-aerial-thumbnail.jpg';
-import ReactBnbGallery from 'react-bnb-gallery'
+import ReactBnbGallery from 'react-bnb-gallery';
+import { Redirect } from 'react-router';
 
 const photos = [
   {photo: wedding1,
@@ -28,10 +29,27 @@ const photos = [
 ];
 
 class Photos extends Component {
+
+  state = {
+    redirect: false
+  }
+
+  handleGalleryClose = () => {
+    this.setState({
+      redirect: true
+    });
+  }
   
   render() {
+    if (this.state.redirect) {
+      return <Redirect push to="/" />;
+    } 
+
     return (
-      <ReactBnbGallery photos={photos} show={true}/>
+      <ReactBnbGallery 
+        photos={photos} 
+        show={true} 
+        onClose={this.handleGalleryClose} />
     );
   }
 }
