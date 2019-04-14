@@ -8,6 +8,12 @@ class Portfolio extends Component {
       <div className="Portfolio-flexContainer">
         <div className="Portfolio-centeredContainer">
 
+          <a className="Portfolio-portfolioLink" href="https://www.songwriting-inspirationator.com" target="_blank" rel="noopener noreferrer">
+            A React web app for songwriters- randomly generates song templates for inspiration 
+          </a>
+          <ViewSourceButton url="https://github.com/alextotheroh/songwriting-inspirationator"/>
+          <br/>
+
           <a className="Portfolio-portfolioLink" href="https://www.loadergallery.com" target="_blank" rel="noopener noreferrer">
             A web app offering free loading spinners for your website
           </a>
