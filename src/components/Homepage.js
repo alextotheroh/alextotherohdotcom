@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HomepageTitle from './HomepageTitle';
 import { Link } from 'react-router-dom';
-import resumePDF from '../documents/AlexTotheroh_Resume_04142019.pdf';
+import resumePDF from '../documents/AlexTotheroh_Resume_04292019.pdf';
 
 class Homepage extends Component {
   
