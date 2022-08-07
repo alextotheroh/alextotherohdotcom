@@ -41,15 +41,19 @@ class Photos extends Component {
   }
   
   render() {
-    if (this.state.redirect) {
-      return <Redirect push to="/" />;
-    } 
+  //   if (this.state.redirect) {
+  //     return <Redirect push to="/" />;
+  //   } 
 
+  //   return (
+  //     <ReactBnbGallery 
+  //       photos={photos} 
+  //       show={true} 
+  //       onClose={this.handleGalleryClose} />
+  //   );
+  // }
     return (
-      <ReactBnbGallery 
-        photos={photos} 
-        show={true} 
-        onClose={this.handleGalleryClose} />
+      <div style={{color: 'white', fontSize: '18pt'}}>Under maintenance, please check back again later.</div>
     );
   }
 }

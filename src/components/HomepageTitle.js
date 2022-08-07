@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import mePNG from '../img/profilePicCropped.png';
+import meJPG from '../img/profilePicCropped.jpg';
 
 const profilePicHeight = "200px"
 
@@ -12,7 +12,7 @@ class HomepageTitle extends Component {
         <div className="Homepage-name">Alex Totheroh</div>
 
         <div className="Homepage-picContainer">
-          <img src={mePNG} height={profilePicHeight} alt="Alex Totheroh"/>
+          <img src={meJPG} height={profilePicHeight} alt="Alex Totheroh"/>
         </div>
       </div>
     );

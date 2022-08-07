@@ -10,12 +10,12 @@ class Homepage extends Component {
       <div className="Homepage-outerContainer">
         <HomepageTitle />
         <div className="Homepage-textContainer"><br/>
-          <div className="Homepage-textLine">I have professional experience in Java, Javascript, NodeJS, Scala, Android,</div>
+          <div className="Homepage-textLine">I have professional experience in Ruby, Rails, Python, Django, Java, Javascript, Scala, Android,</div>
           <div className="Homepage-textLine">Docker, AWS, and various supporting technologies.</div>
           <div className="Homepage-textLine">In addition to my degree in Computer Science, I have a humanities degree, which</div>
           <div className="Homepage-textLine">has helped me apply effective writing and communication skills to the complex world of software development.</div>
           <div className="Homepage-textLine">I also have higher level experience designing systems and leading projects.</div><br/>
-          <div className="Homepage-textLine">In short, I like to make things, and I like solving complex problems with other people.</div><br/>
+          <div className="Homepage-textLine">I like to make things, and I like solving complex problems with other people!</div><br/>
 
           <div className="Homepage-textLine">{"Here is my "} 
             <a className="Homepage-clickable" 

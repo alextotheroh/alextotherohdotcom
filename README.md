@@ -1,19 +1,14 @@
 # alextotherohdotcom
 
 ## dev
-```
-npm start
-```
+`npm start`
 
 ## deployment
 - on personal ubuntu host, project is hosted at /HomePage but index.html is at root.
 - thus, the homepage field is set in package.json
 
 - after doing:
-
-```
-npm run build
-```
+`npm run build`
 
 - copy the contents of the build directory to the /HomePage folder on ubuntu host.
 - cp index.html to `HomePage/..` (`/var/www/html`)
