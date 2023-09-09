@@ -17,3 +17,7 @@
     color: #f9f9f9;
     margin-bottom: 30px;
 }
+
+.Portfolio-portfolioLink:hover {
+    color: #b7c0cf;
+}

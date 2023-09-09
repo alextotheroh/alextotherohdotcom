@@ -32,6 +32,10 @@
     color: #6f1add;
 }
 
+.Homepage-clickable:hover {
+    color: #b7c0cf;
+}
+
 .Homepage-picContainer {
     display: inline-block;
     margin-left: 135px;

@@ -14,12 +14,6 @@ class Portfolio extends Component {
           <ViewSourceButton url="https://github.com/alextotheroh/songwriting-inspirationator"/>
           <br/>
 
-          <a className="Portfolio-portfolioLink" href="https://www.loadergallery.com" target="_blank" rel="noopener noreferrer">
-            A web app offering free loading spinners for your website
-          </a>
-          <ViewSourceButton url="https://github.com/shanehobson/loaders"/>
-          <br/>
-
           <a className="Portfolio-portfolioLink" href="https://play.google.com/store/apps/details?id=edu.indiana.bluesguitarriffs" target="_blank" rel="noopener noreferrer">
             A free Android app teaching blues guitar riffs. 
           </a><br/>

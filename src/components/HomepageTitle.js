@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import meJPG from '../img/profilePicCropped.jpg';
+import meJPG from '../img/profilePic.jpeg';
 
 const profilePicHeight = "200px"
 
